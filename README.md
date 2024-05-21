@@ -1,4 +1,4 @@
-# appium-ios Automation using Page Object Model
+# Appium-IOS Automation using Page Object Model
 
 **IOS Automation - Installation in MAC**
 1. brew install node

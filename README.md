@@ -80,9 +80,7 @@ export PATH="path of bin folder of allure"
 5. Run testcase as testng.
 6. refresh the project ; you will see output for allure in "allure-results" folder
 7. Go to new window terminal : command = allure serve "path-of-allure-results-folder"
-8. Reports will appear in below format:
-	
-![image](https://media.github.ford.com/user/30776/files/979ba17b-2e11-4859-b515-e3569bfa8fe7)
+
 
 **Master TestNG.xml Suite Format**
 

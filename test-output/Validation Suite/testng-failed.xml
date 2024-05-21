@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Validation Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="ios.AllureListener"/>
+  </listeners>
+  <test name="Pricing Page Validations(failed)">
+    <classes>
+      <class name="ios.PricingTierPageValidations">
+        <methods>
+          <include name="PricingTierPageValidations"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ios.PricingTierPageValidations -->
+    </classes>
+  </test> <!-- Pricing Page Validations(failed) -->
+</suite> <!-- Failed suite [Validation Suite] -->

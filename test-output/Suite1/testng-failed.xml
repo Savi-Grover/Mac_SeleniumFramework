@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="ios.ExperianFail">
+        <methods>
+          <include name="ExperianFailTest"/>
+          <include name="SetupIOSDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ios.ExperianFail -->
+      <class name="ios.ApplicationPageValidations">
+        <methods>
+          <include name="setUpIOSDriver"/>
+          <include name="ApplicationPageValidations"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ios.ApplicationPageValidations -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

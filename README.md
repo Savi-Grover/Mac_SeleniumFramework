@@ -84,8 +84,7 @@ export PATH="path of bin folder of allure"
 
 **Master TestNG.xml Suite Format**
 
-For running more than one TestNG.xml, we can use a master testng suite using <suite-files></suite-files> 
-
+For running more than one TestNG.xml, we can use a master testng suite using suite-files tag.
 <suite name="Master Suite" preserve-order="true" thread-count="1" verbose="10" parallel="false" configfailurepolicy="skip"
 allow-return-values="false">
 <suite-files>
